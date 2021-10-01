@@ -1,0 +1,29 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section {
+	position: relative;
+	width: 1440px;
+	height: 1080px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.navbar {
+	padding: 70px auto;
+}
+
+section img {
+	width: 540px;
+	height: 448px;
+	position: absolute;
+	left: 5.35%;
+	right: 57.21%;
+	top: 24.54%;
+	bottom: 34.03%;
+}
